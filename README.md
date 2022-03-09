@@ -1,6 +1,9 @@
 # Créer une application de gestion de tâches 
 Dans ce TP vous allez réaliser une application de gestion de tâches en utilisant une API REST. 
 
+# Liens vers les slides 
+https://drive.google.com/drive/folders/1g-RpHOLWInkNnwskicv0TDiqZJvT2JWK?usp=sharing
+
 # Description de l'API
 L'url de base de l'API étant : https://dmi-gobelins.herokuapp.com/
 

@@ -4,6 +4,9 @@ Dans ce TP vous allez réaliser une application de gestion de tâches en utilisa
 # Liens vers les slides 
 https://drive.google.com/drive/folders/1g-RpHOLWInkNnwskicv0TDiqZJvT2JWK?usp=sharing
 
+# Lien vers l'assignment sur Github classroom
+https://classroom.github.com/a/rDJsajU_
+
 # Description de l'API
 L'url de base de l'API étant : https://dmi-gobelins.herokuapp.com/
 

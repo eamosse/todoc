@@ -28,6 +28,7 @@ L'url de base de l'API étant : https://dmi-gobelins.herokuapp.com/
         "due_date": "2021-03-09 10:00:00"
  }
 ```
+>> Vous pouvez utiliser la collection postman pour tester l'API
 # Partie 1
 Utiliser l'API REST.
   - Ajouter une tâche

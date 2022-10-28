@@ -3,6 +3,8 @@ Dans ce TP vous allez réaliser une application de gestion de tâches en utilisa
 
 # Liens vers les slides 
 https://drive.google.com/drive/folders/1g-RpHOLWInkNnwskicv0TDiqZJvT2JWK?usp=sharing
+
+
 Pour effectuer des appels réseaux depuis une application Android > https://docs.google.com/presentation/d/1_kzOG3mOXAHgRLB5ldJ7Y2bh1e2DcnU5/edit#slide=id.p23
 
 # Lien vers l'assignment sur Github classroom

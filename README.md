@@ -56,10 +56,14 @@ Créer des tests unitaires, d'intégrations et instrumentaires
 - Faire des tests instrumentaires sur moins 3 cas d'utilisation
 - Faire des tests d'intégration sur la base de données
 - Tester unitairement le repository
+- Mettre en place des tests d'intégration sur le projet (i.e vos tests sont exécutés quand vous mergez sur master)
 
-# Bonus
+# Bonus (1 au choix)
 - Possibilité de partager une tâche (WhatsApp, Facebook, Email, ...)
-- Afficher une notification quand de nouvelles tâches sont créés et/ou quand les dates limites des tâches sont passées 
+- Afficher une notification quand de nouvelles tâches sont créés et/ou quand les dates limites des tâches sont passées
+- Swipe sur une tâche pour la compléter
+- Authentification Firebase
+- Toute autre fonctionnalité interessante
 
 # Contraintes
 - Design : Faites travailler votre imagination pour proposer une application la plus zolie que possible
@@ -67,5 +71,5 @@ Créer des tests unitaires, d'intégrations et instrumentaires
 - Toutes les vues de l'application doivent être gérées dans des fragments
 - Les fragments doivent gérer uniquement l'affichage de données
 - Les données des vues sont gérées dans des viewmodels
-- Les données de l'application sont gérés dans un repository
+- Les données de l'application sont gérées dans un repository
 - La communication entre les différentes couches se fait via des livedatas

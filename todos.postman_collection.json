@@ -12,15 +12,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://dmi-gobelins.herokuapp.com/todos",
-					"protocol": "https",
+					"raw": "{{url}}",
 					"host": [
-						"dmi-gobelins",
-						"herokuapp",
-						"com"
-					],
-					"path": [
-						"todos"
+						"{{url}}"
 					]
 				}
 			},
@@ -29,32 +23,79 @@
 		{
 			"name": "Add a task",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"assignee\": \"ghh\",\n  \"description\": \"hgff\",\n  \"due_date\": \"hh\",\n  \"requested_by\": \"The master\",\n  \"task\": \"hffvh\",\n  \"created_at\": \"2022-12-01 06:54:01\",\n  \"last_updated\": \"2022-12-01 06:54:01\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "Complete",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/638e0994318c191ad16e887c/status/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"638e0994318c191ad16e887c",
+						"status",
+						"1"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "Reopen",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/638e0994318c191ad16e887c/status/0",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"638e0994318c191ad16e887c",
+						"status",
+						"0"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "Delete",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/638e0abfb0105f1b90cea0f5",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"638e0abfb0105f1b90cea0f5"
+					]
+				}
 			},
 			"response": []
 		}
